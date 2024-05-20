@@ -30,9 +30,9 @@ export const Contact = () => {
 
     // Reset the form details
     setFormDetails(formInitialDetails);
-    setButtonText("Sending..."); // Optional: Update button text while sending
+    setButtonText("Sending...");
 
-    // Simulate asynchronous form submission (you can replace this with an actual API call)
+    
     setTimeout(() => {
       // Update status
       setStatus({
@@ -43,7 +43,7 @@ export const Contact = () => {
       setButtonText("Send"); // Reset button text after submission
     }, 1000);
 
-    // Redirect user to mail client
+    
     window.location.href = mailtoLink;
   };
 

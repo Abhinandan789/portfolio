@@ -6,7 +6,7 @@ import projImg1 from "./assets/img/space.png";
 import projImg2 from "./assets/img/shopcart.png";
 import projImg3 from "./assets/img/todo.png";
 import colorSharp2 from "./assets/img/color-sharp2.png";
-//import "animate.css";
+
 import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const project1 = {
@@ -20,8 +20,6 @@ export const Projects = () => {
         various planets, moons and spacecrafts with a playful and interactive
         UI/UX design
         <br />
-        Learnt various HTML & CSS concepts like Semantics, flexbox, grids, event
-        management, etc.
       </>
     ),
   };
@@ -34,9 +32,6 @@ export const Projects = () => {
       <>
         Made frontend portion of the Shopping website with features like
         authenticated login, curated item list, functional cart, etc.
-        <br />
-        Learnt various ReactJs concepts like State, Effects, Context, managing
-        local storage of the browser, etc.
         <br />
         <br />
         Credentials to login into project
